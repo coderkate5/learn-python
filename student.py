@@ -9,9 +9,9 @@ class Student:
         print(f"Age: {self.age}")
         print(f"Grade: {self.grade}")
 
-def promote(self):
-    self.grade += 1
-    print(f"{self.name} has been promoted to grade {self.grade}!")
+    def promote(self):
+        self.grade += 1
+        print(f"{self.name} has been promoted to grade {self.grade}!")
 
 student1 = Student("Alice", 15, 10)
 student2 = Student("Bob", 16, 9)
