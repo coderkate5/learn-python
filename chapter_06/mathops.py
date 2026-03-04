@@ -1,4 +1,4 @@
-# Using static methods in python
+# Using static methods in python. Static methods do not take self as a parameter. 
 class MathOperations:
     @staticmethod
     def add(a, b):
@@ -18,7 +18,8 @@ class MathOperations:
             return False
         
 
-# use methods
+# You can use static methods directly on the class name. 
+# We do not first need to create an object.
 result1 = MathOperations.add(18, 22)
 result2 = MathOperations.multiply(4, 90)
 result3 = MathOperations.is_even(10)
