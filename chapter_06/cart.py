@@ -33,5 +33,5 @@ cart2 = ShoppingCart()
 cart2.add_item("Banana", 0.75)
 cart2.add_item("Grape", 3.5)
 
-combined_cart = cart1 + cart2
+combined_cart = cart1 + cart2 # here we are using the + operator and the class then defaults to the __add__ method because it is defined.
 print(combined_cart)
